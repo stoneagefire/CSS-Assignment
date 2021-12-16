@@ -1,0 +1,170 @@
+/* initial style of body */
+
+body {
+    background-color: #D8DA3D;
+}
+
+
+/* left splited div tag initial properties */
+
+.split-left {
+    height: 100%;
+    width: 17%;
+    position: fixed;
+    padding-top: 20px;
+    left: 0;
+}
+
+
+/* right splited div tag initial properties */
+
+.split2-right {
+    height: 100%;
+    width: 83%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+/* div tag containing no. of buttons  */
+
+.left-inner-div {
+    padding: 20px 15px 0 10px;
+    text-align: left;
+    line-height: 0.5;
+}
+
+
+/* css properties for button  */
+
+.on-button {
+    margin-top: 10px;
+    width: 200px;
+    font: 20px 'Adamina';
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+    text-align: left;
+    color: #80007E;
+    border-right-width: 20px;
+    border-style: none solid none none;
+}
+
+.on-button-odd {
+    border-right-color: #FF7F00;
+}
+
+.on-button-even {
+    border-right-color: #0000FF;
+}
+
+
+/* left inner div tag containing all the actual containing */
+
+.div-right-main {
+    margin: 10px 0 0 10px;
+    text-align: left;
+    color: #80007E;
+    font: 18px 'Georgia';
+}
+
+
+/* properties of date portion displayed below line */
+
+#date-block {
+    font: italic 16px 'Georgia';
+    display: block;
+    margin-top: 60px;
+    width: 180px;
+    color: #80007E;
+    font-weight: 500;
+    height: auto;
+}
+
+
+/* styling for text above the line */
+
+.right-text {
+    display: block;
+    margin-top: 20px;
+    text-align: left;
+    height: auto;
+}
+
+
+/* horizontal line properties */
+
+hr {
+    margin-top: 50px;
+    width: 98%;
+    border: none;
+    border-top: 2px dotted #80007E;
+    margin-left: 0;
+}
+
+
+/* block one and two common properties */
+
+div.second {
+    width: 80%;
+    padding: 10px 10px;
+    margin-left: 0;
+    display: block;
+    font-size: 20px;
+    font-family: georgia;
+    word-spacing: 2px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+/* block one properties */
+
+.one-block {
+    text-align: left;
+    word-spacing: 2px;
+}
+
+div.one::before {
+    border: 5px dashed black;
+    content: "";
+    position: absolute;
+    top: -3px;
+    bottom: -2px;
+    left: -3px;
+    right: -2.5px;
+}
+
+
+/* block two properties */
+
+.two-block {
+    text-align: right;
+    font-style: italic;
+}
+
+div.two::before {
+    content: "";
+    position: absolute;
+    border: 5px dashed #FF0000;
+    top: -3px;
+    bottom: -2px;
+    left: -3px;
+    right: -2.5px;
+}
+
+
+/* third p block */
+
+p.third {
+    width: 80%;
+    padding: 10px 7px;
+    margin-left: 0;
+    display: block;
+    font: bold 20px 'georgia';
+    color: black;
+    text-align: center;
+    border: 2px dotted #0000FF
+}

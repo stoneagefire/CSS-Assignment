@@ -1,0 +1,94 @@
+/* initial style of body */
+
+body {
+    background-color: #D8DA3D;
+}
+
+
+/* left splited div tag initial properties */
+
+.split-left {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    padding-top: 20px;
+    left: 0;
+}
+
+
+/* right splited div tag initial properties */
+
+.split2-right {
+    height: 100%;
+    width: 85%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+/* div tag containing no. of buttons  */
+
+.left-inner-div {
+    padding: 20px 15px 0 10px;
+    text-align: left;
+    line-height: 0.5;
+}
+
+
+/* css properties for button  */
+
+.on-button {
+    margin-top: 10px;
+    width: 200px;
+    font: 20px 'Adamina';
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+    text-align: left;
+    color: #80007E;
+    border-right: 20px black;
+    border-style: none solid none none;
+}
+
+
+/* left inner div tag containing all the actual containing */
+
+.div-right-main {
+    margin: 10px 0 0 10px;
+    text-align: left;
+    color: #80007E;
+    font: 18px 'Georgia';
+}
+
+
+/* properties of date portion displayed below line */
+
+#date-block {
+    font-style: italic;
+    display: block;
+    margin-top: 20px;
+    width: 190px;
+    height: auto;
+}
+
+
+/* styling for text above the line */
+
+.right-text {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    height: auto;
+}
+
+
+/* horizontal line properties */
+
+hr {
+    margin-top: 40px;
+    width: 98%;
+    border: none;
+    border-top: 2px dotted #80007E;
+    margin-left: 0;
+}
