@@ -1,3 +1,5 @@
+/* css for div block of image-1 and image-2 */
+
 .top-position {
     display: block;
     border: 2px solid black;
@@ -6,12 +8,18 @@
     margin-top: 20px;
 }
 
+
+/* text formatting of image labels */
+
 .text-format-one {
     padding: 5px;
     display: block;
     text-align: left;
     width: 100%;
 }
+
+
+/* image-1 top portion of image is desired dimensions */
 
 .img-format-one {
     width: 100%;
@@ -20,6 +28,9 @@
     object-fit: cover;
 }
 
+
+/* image-2 bottom portion of image is desired dimensions */
+
 .img-format-two {
     width: 100%;
     height: 150px;
@@ -27,11 +38,17 @@
     object-fit: cover;
 }
 
+
+/* image with explicit dimensions */
+
 .img-format-three {
     object-fit: contain;
     width: 500px;
     height: 300px;
 }
+
+
+/* block containing image-3 */
 
 .bottom-position {
     display: block;
